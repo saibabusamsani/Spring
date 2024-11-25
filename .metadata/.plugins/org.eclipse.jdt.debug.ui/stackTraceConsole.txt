@@ -1,0 +1,6 @@
+EmployeeDetailes empDetailes=new EmployeeDetailes();
+		empDetailes.setEmployeeId(rs.getInt(1));
+		empDetailes.setEmployeeName(rs.getString(2));
+		empDetailes.setEmployeeSalary(rs.getDouble(3));
+		empDetailes.setEmployeeDeptno(rs.getInt(4));
+		return empDetailes;

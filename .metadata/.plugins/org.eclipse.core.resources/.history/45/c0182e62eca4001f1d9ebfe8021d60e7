@@ -1,0 +1,21 @@
+package com;
+
+import java.util.PriorityQueue;
+
+public class A
+{
+	public static void main(String[] args) {
+		
+		PriorityQueue<Integer>  p =new PriorityQueue<Integer>();
+		p.add(20);
+		p.add(10);
+		p.add(22);
+		p.add(2);
+		p.add(5);
+		p.add(4);
+		
+		System.out.println(p);
+		
+		
+	}
+}

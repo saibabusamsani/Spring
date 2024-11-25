@@ -1,0 +1,42 @@
+package com;
+
+public class A
+{
+	public static void main(String[] args) {
+		System.out.println(isPrime(15));
+		
+		int[] a= {5,4,3,2,1};
+		
+		for(int i:bubble(a))
+		{
+			System.out.print(i+" ");
+		}
+	}
+	static boolean isPrime(int n)
+	{
+		if(n<2) return false;
+		for(int i=2;i*i<=n;i++)
+		{
+			if(n%i==0) return false;
+			
+		}
+	return true;
+	}
+//	 4,3,2,1,5
+	public static int[] bubble(int[] a)
+	{
+		for(int i=0;i<a.length-1;i++)
+		{
+			for(int j=0;j<a.length-1-i;j++)
+			{
+				if(a[j]>a[j+1]) {
+					int t=a[j];
+					a[j]=a[j+1];
+					a[j+1]=t;
+				}
+			}
+			
+		}
+		return a;
+	}
+}

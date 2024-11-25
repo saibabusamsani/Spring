@@ -1,0 +1,65 @@
+package com;
+
+import java.util.Scanner;
+/*   
+     *
+    * *
+   *   *   
+  *     *
+ *       *
+  *     *
+   *   *
+    * *
+     *
+ 
+ */
+public class Love {
+	public static void main(String[] args) {
+		int n=9;
+		int star=1;
+		int sp=n/2;
+		int p=1;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=sp;j++)
+			{
+				System.out.print("  ");
+			}
+			for(int j=1;j<=star;j++)
+			{
+				if(j==1 || j==star)	
+				{
+					for(int k=p+1;true;k++)
+					{
+						 p=k;
+						int c=0;
+						for(int t=2;t<p;t++)
+						{
+							if(p%t==0)c++;
+						}
+						if(c==0)
+							{
+							System.out.println(p);
+							break;
+							}
+					}
+				}
+					
+				else System.out.print("  ");
+			}
+			if(i<=n/2)
+			{
+				star+=2;
+				sp--;
+			}
+			else
+			{
+				star-=2;
+				sp++;
+			}
+			System.out.println();
+		}
+		
+	}
+	 
+}

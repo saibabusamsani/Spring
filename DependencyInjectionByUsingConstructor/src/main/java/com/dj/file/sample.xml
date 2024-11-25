@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        
+        xmlns:c="http://www.springframework.org/schema/c"
+        
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+            
+            <context:property-placeholder location="com/dj/file/application.properties"/>
+        
+        
+   <bean class="com.dj.model.Student"  id="stuent2"></bean>
+
+   <bean class="com.dj.model.Student"  name="student1">
+   <constructor-arg value="1"></constructor-arg>
+   <constructor-arg value="sai"></constructor-arg>
+   <constructor-arg value="70.5"></constructor-arg>
+   <constructor-arg value="sai@123"></constructor-arg>
+   <constructor-arg ref="address"></constructor-arg>
+   <constructor-arg ref="college"></constructor-arg>
+   </bean>
+   
+   <bean class="com.dj.model.Address"  name="address">
+   <constructor-arg value="${pin}"></constructor-arg>
+   <constructor-arg value="${state}"></constructor-arg>
+   <constructor-arg value="${street}"></constructor-arg>
+   <constructor-arg value="${village}"></constructor-arg>
+   </bean>
+   
+   <bean class="com.dj.model.College"  id="college"  c:collegeId="45" c:collegeName="ANU" c:collegeAddress="Guntur">
+   
+   </bean>
+   
+   	
+
+</beans>

@@ -1,0 +1,37 @@
+package com;
+
+interface Gismath
+{
+	void chickenBiryani();
+	void muttonBiryani();
+}
+
+class ChefMaster implements Gismath
+{
+
+	@Override
+	public void chickenBiryani() {
+		// TODO Auto-generated method stub
+		System.out.println("chicken birayani ready");
+		
+	}
+
+	@Override
+	public void muttonBiryani() {
+		// TODO Auto-generated method stub
+		System.out.println("mutton birayani ready");
+		
+	}
+	
+}
+
+public class A
+{
+	public static void main(String[] args) {
+		
+		 Gismath gistmath=new ChefMaster();
+		 
+		 gistmath.chickenBiryani();
+		
+	}
+}

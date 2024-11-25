@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+            
+         <bean class="com.dj.Demo" id="demo" autowire="default">
+         <constructor-arg name="name" value="sai"></constructor-arg>
+         <constructor-arg name="age" value="22"></constructor-arg>
+         <constructor-arg name="a" >
+         <list>
+         <ref bean="a"></ref>
+         <ref bean="b"></ref>
+         </list>
+         </constructor-arg>
+         </bean>
+         
+         <bean class="com.dj.AAA" id="a">
+         <constructor-arg name="skill" value="java"></constructor-arg>
+         </bean>
+          <bean class="com.dj.AAA" id="b">
+         <constructor-arg name="skill" value="javaScript"></constructor-arg>
+         </bean>
+</beans>

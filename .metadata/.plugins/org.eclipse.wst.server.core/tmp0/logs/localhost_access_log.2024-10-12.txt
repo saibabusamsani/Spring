@@ -1,0 +1,11 @@
+127.0.0.1 - - [12/Oct/2024:13:05:39 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Oct/2024:13:05:40 +0530] "GET /EmployeeUsingSpringMVC/ HTTP/1.1" 200 344
+127.0.0.1 - - [12/Oct/2024:13:05:40 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [12/Oct/2024:13:05:45 +0530] "GET /EmployeeUsingSpringMVC/adminLogin?email=sai%40gmail.com&password=123 HTTP/1.1" 302 -
+127.0.0.1 - - [12/Oct/2024:13:05:45 +0530] "GET /EmployeeUsingSpringMVC/allEmplpoyeeDetailes HTTP/1.1" 200 2384
+127.0.0.1 - - [12/Oct/2024:13:05:48 +0530] "GET /EmployeeUsingSpringMVC/Registration.jsp? HTTP/1.1" 200 486
+127.0.0.1 - - [12/Oct/2024:13:05:58 +0530] "GET /EmployeeUsingSpringMVC/remove?emp_id=44 HTTP/1.1" 302 -
+127.0.0.1 - - [12/Oct/2024:13:05:58 +0530] "GET /EmployeeUsingSpringMVC/allEmplpoyeeDetailes HTTP/1.1" 200 1937
+127.0.0.1 - - [12/Oct/2024:13:06:00 +0530] "GET /EmployeeUsingSpringMVC/getEmployeeByID?emp_id=42 HTTP/1.1" 200 644
+127.0.0.1 - - [12/Oct/2024:13:06:10 +0530] "GET /EmployeeUsingSpringMVC/Registration.jsp? HTTP/1.1" 200 486
+127.0.0.1 - - [12/Oct/2024:13:26:25 +0530] "GET / HTTP/1.1" 404 751

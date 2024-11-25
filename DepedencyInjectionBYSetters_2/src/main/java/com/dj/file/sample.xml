@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+ 	<bean class="com.dj.model.Employee" id="emp">
+ 		<property name="id" value="45"></property>
+ 		<property name="name" value="sai"></property>
+ 		<property name="sal" value="25000"></property>
+ 		<property name="deptno" value="5"></property>
+ 		<property name="address" ref="addr"></property>
+ 		
+ 		<property name="education" >
+ 		<list>
+ 		<ref bean="edu1"></ref>
+ 		<ref bean="edu2"></ref>
+ 		</list>
+ 		</property>
+ 		
+ 		<property name="skills">
+ 		<list>
+ 			<ref bean="sk1"></ref>
+ 			<ref bean="sk2"></ref>
+ 			<ref bean="sk3"></ref>
+ 		</list>
+ 		</property>
+ 		
+ 	</bean>
+ 	
+ 	<bean class="com.dj.model.Address" id="addr">
+ 	<property name="pin" value="1234"></property>
+ 	<property name="state" value="Ap"></property>
+ 	</bean>
+ 	
+ 	<bean class="com.dj.model.Address" id="addr1">
+ 	<property name="pin" value="1235"></property>
+ 	<property name="state" value="Goa"></property>
+ 	</bean>
+ 	
+ 	<bean class="com.dj.model.Education" id="edu1">
+ 		<property name="yearOfPass" value="2017"></property>
+ 		<property name="nameOfInstitute" value="zpphs"></property>
+ 		<property name="qualification" value="10th"></property>
+ 	
+ 	</bean>
+ 	
+ 	<bean class="com.dj.model.Education" id="edu2">
+ 		<property name="yearOfPass" value="2019"></property>
+ 		<property name="nameOfInstitute" value="Sri chainya junior colg"></property>
+ 		<property name="qualification" value="12th"></property>
+ 	
+ 	</bean>
+ 	
+ 	<bean class="com.dj.model.Skill" id="sk1">
+ 	<property name="name" value="java"></property>
+ 	</bean>
+ 	<bean class="com.dj.model.Skill" id="sk2">
+ 	<property name="name" value="SQl"></property>
+ 	</bean>
+ 	<bean class="com.dj.model.Skill" id="sk3">
+ 	<property name="name" value="javascript"></property>
+ 	</bean>
+
+</beans>

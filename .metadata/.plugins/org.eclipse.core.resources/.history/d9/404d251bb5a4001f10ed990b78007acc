@@ -1,0 +1,20 @@
+package com;
+
+public class A
+{
+	public static void main(String[] args) {
+		int res=product(2,5,1,0);
+		System.out.println(res);
+		
+	}
+//	2* =10 
+	static int product(int a,int b,int i,int res)
+	{
+		if(i<=b)
+		{
+			product(a, b, i+1, res+a);
+		}
+		return res;
+	}
+	
+}

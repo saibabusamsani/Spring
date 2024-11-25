@@ -1,0 +1,31 @@
+package com;
+
+public class A
+{
+	public static void main(String[] args) {
+		
+		int[] a= {5,4,3,2,1};
+		for(int i:insertion(a))
+		{
+			System.out.print(i+" ");
+		}
+	}
+//	 3,4,5,2,1
+//   2,3,4,5
+	static int[] insertion(int[] a)
+	{
+		for(int i=1;i<a.length;i++)
+		{
+		int key=a[3];
+		int j=i-1;
+		
+		while(j>=0 && key>a[j])
+		{
+			a[j+1]=a[j];
+			j--;
+		}
+		a[j+1]=key;
+	}
+		return a;
+				}
+}

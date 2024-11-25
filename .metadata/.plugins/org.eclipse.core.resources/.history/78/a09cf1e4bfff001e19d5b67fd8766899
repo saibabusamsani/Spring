@@ -1,0 +1,29 @@
+package com;
+
+import java.util.Scanner;
+
+public class Love {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter ...");
+		int n=sc.nextInt();
+		fib(n);
+		
+	}
+	static int a=0;//1
+	static int b=1;//0
+	static int c=0;
+	
+	public static void  fib(int n)//10
+	{
+		if(n>0)
+		{
+			a=b;
+			b=c;
+			c=a+b;
+			System.out.println(b);
+			fib(n-1);
+		}
+	}
+	 
+}

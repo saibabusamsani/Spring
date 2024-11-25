@@ -1,0 +1,33 @@
+package com;
+
+public class A
+{
+	public static void main(String[] args) {
+		
+		int[] a= {5,4,3,2,1};
+		insertion(a);
+	}
+//	 3,4,5,2,1
+//   2,3,4,5
+	static void insertion(int[] a)
+	{
+		for(int i=1;i<a.length;i++)
+		{
+		int key=a[i];
+		int j=i-1;
+		
+		while(j>=0 && key<a[j])
+		{
+			a[j+1]=a[j];
+			j--;
+		}
+		a[j+1]=key;
+		for(int k:a)
+		{
+			System.out.print(k+" ");
+		}
+		System.out.println();
+	}
+		
+				}
+}

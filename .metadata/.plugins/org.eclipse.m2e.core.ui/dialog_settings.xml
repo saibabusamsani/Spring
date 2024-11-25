@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Spring\FirstSpringMVC\src\main\java\com\example\controller\EmployeeController.java"/>
+			<item value="C:\Spring\AnnotationConfiguration\src\main\java\com\jsp\App.java"/>
+			<item value="C:\Spring\Apple\src\main\java\com\dj\model\Batsman.java"/>
+			<item value="C:\Spring\CustomerManagementSystemUsingSpringMVC_SpringDataJPA_withoutWeb_XML"/>
+			<item value="C:\Spring\Practise\src\com\Stack1.java"/>
+			<item value="C:\Spring\FirstSpringMVC\pom.xml"/>
+			<item value="C:\Spring\Practise\src\com\Love.java"/>
+			<item value="C:\Spring\EmployeeUsingSpringMVC\pom.xml"/>
+			<item value="C:\Spring\EmployeeUsingSpringMVC\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="C:\Spring\e-shoppingByUsingSpringDataJPA\src\main\java\com\shopping\App.java"/>
+			<item value="C:\Spring\e-shoppingByUsingSpringDataJPA"/>
+			<item value="C:\Spring\FirstJPAProject\src\main\java\com\jsp\Customer\Customer.java"/>
+			<item value="C:\Spring\Practise\src\com\Abc.java"/>
+			<item value="C:\Spring\EmployeeManagementSystemUsingSpringJDBC\src\main\java\com\employee\App.java"/>
+			<item value="C:\Spring\Practise\src\com\DL.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.SecondMVC"/>
+			<item value="com.SecondPractise"/>
+			<item value="com.Login.Emp"/>
+			<item value="com.Login.EmpLogin"/>
+			<item value="student"/>
+			<item value="Student"/>
+		</list>
+		<list key="groupId">
+			<item value="com"/>
+			<item value="com.Login"/>
+			<item value="student"/>
+			<item value="Student"/>
+		</list>
+		<list key="artifactId">
+			<item value="SecondMVC"/>
+			<item value="SecondPractise"/>
+			<item value="Emp"/>
+			<item value="EmpLogin"/>
+			<item value="Student"/>
+			<item value="com"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
